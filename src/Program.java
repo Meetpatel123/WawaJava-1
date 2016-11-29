@@ -1,7 +1,11 @@
-/**
- * Created by kongra on 22.11.16.
- */
 public class Program {
+
+  public static int factorial(int n) {
+    if(n == 0) {
+      return 1;
+    }
+    return n * factorial(n-1);
+  }
 
   public static double root(double a, double b) {
     double x0 = -b / a;
@@ -9,8 +13,17 @@ public class Program {
   }
 
   public static void main(String[] args) {
-    double result = root(2, 3);
-    System.out.println("The root of y=2x+3 is " + result);
+    System.out.println(factorial(0));
+    System.out.println(factorial(1));
+    System.out.println(factorial(2));
+    System.out.println(factorial(3));
+    System.out.println(factorial(4));
+    System.out.println(factorial(5));
+    System.out.println(factorial(6));
+    System.out.println(factorial(7));
+    System.out.println(factorial(8));
+    System.out.println(factorial(9));
+    System.out.println(factorial(10));
   }
 
 }
