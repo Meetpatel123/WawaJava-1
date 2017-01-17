@@ -1,13 +1,11 @@
-import java.util.Scanner;
-
 public class Linalg {
 
   public static void printVector(double[] x) {
     int n = x.length;
     System.out.print("[");
-    for(int i = 0; i < n; i += 1) {
+    for (int i = 0; i < n; i += 1) {
       System.out.print(x[i]);
-      if(i != (n-1)) {
+      if (i != (n - 1)) {
         System.out.print(", ");
       }
     }
@@ -20,7 +18,7 @@ public class Linalg {
 
   public static double euclideanNorm(double[] x) {
     double sumOfSquares = 0;
-    for(int i = 0; i < x.length; i += 1) {
+    for (int i = 0; i < x.length; i += 1) {
       sumOfSquares += square(x[i]);
     }
     return Math.sqrt(sumOfSquares);
@@ -28,7 +26,7 @@ public class Linalg {
 
   public static double dotProduct(double[] x, double[] y) {
     double value = 0;
-    for(int i = 0; i < x.length && i < y.length; i += 1) {
+    for (int i = 0; i < x.length && i < y.length; i += 1) {
       value += x[i] * y[i];
     }
     return value;
@@ -44,7 +42,7 @@ public class Linalg {
 
   public static double angleBetween(double[] x, double[] y) {
     double cosA = dotProduct(x, y) /
-                    (euclideanNorm(x) * euclideanNorm(y));
+        (euclideanNorm(x) * euclideanNorm(y));
     return Math.acos(cosA);
   }
 

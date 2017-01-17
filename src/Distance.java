@@ -1,17 +1,17 @@
 class Distance {
 
-	double dx;
+  double dx;
 
-	double dy;
+  double dy;
 
-	double dz;
+  double dz;
 
-	Distance(double initDx,
-	         double initDy,
-	         double initDz) {
-		dx = initDx;
-		dy = initDy;
-		dz = initDz;
-	}
+  Distance(double initDx,
+           double initDy,
+           double initDz) {
+    dx = initDx;
+    dy = initDy;
+    dz = initDz;
+  }
 
 }
