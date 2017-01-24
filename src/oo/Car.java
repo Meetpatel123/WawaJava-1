@@ -20,6 +20,8 @@ class Car {
       double newSpeed = this.speed + this.acc;
       if(newSpeed <= this.maxSpeed) {
         this.speed = newSpeed;
+      } else {
+        this.speed = maxSpeed;
       }
       System.out.println("My current speed is " + this.speed);
 
