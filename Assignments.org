@@ -1,11 +1,8 @@
-* 2016-11-22 Utility software
-  Prepare topics of your projects for the next meeting.
-* 2016-11-22 Java
 * 2016-11-29 Java
-  Excercise 1. Write a procedure to compute values of a function
-  Excercise 2. fib(n)
+  Excercise 1. Write a procedure to compute values of a function of your choice
+  Excercise 2. fib(n) using canonical definition
 * 2016-12-06 Java
-  Excercise 3. Transform fib(n) to the recursive form that uses iteration
+  Excercise 3. Transform fib(n) to the recursive form that results in an iterative process.
   Excercise 4. Transform fib(n) to the form that uses while loop.
   Excercise 5. Transform fib(n) to the form that uses for loop.
 * 2016-12-13 Java
