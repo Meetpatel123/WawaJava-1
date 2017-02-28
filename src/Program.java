@@ -1,8 +1,8 @@
 class Program {
 
   public static void main(String[] args) {
-    Point p1 = new Point(4.25, 3.14, -1.25);
-    Point p2 = new Point(6, 7, 8);
+    Point p1 = new Point(4.25, Math.PI, -1.25);
+    // Point p2 = new Point(6, 7, 8);
     // p1.x = 4.25;
     // p1.y = 3.14;
     // p1.z = -1.25;
