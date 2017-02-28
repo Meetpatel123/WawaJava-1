@@ -2,13 +2,19 @@ package wawa.math;
 
 class Complex {
 
-  double re;
+  final double re;
 
-  double im;
+  final double im;
 
   Complex(double re, double im) {
     this.re = re;
     this.im = im;
+  }
+
+  Complex add(Complex other) {
+    return new Complex(
+        this.re + other.re,
+        this.im + other.im);
   }
 
 }
