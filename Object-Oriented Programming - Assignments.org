@@ -1,2 +1,2 @@
 # Assignments:
-* 1. Implement -,*,/ for Complex numbers
+* 1. Implement -,*,/,conj(ugate) for Complex numbers
