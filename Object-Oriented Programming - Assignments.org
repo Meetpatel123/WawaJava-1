@@ -1,2 +1,7 @@
 # Assignments:
 * 1. Implement -,*,/,conj(ugate) for Complex numbers
+* 2. Define a class with 4 member methods with 4 different access specifiers.
+     Create test cases to observe the influence of access specifiers on the
+     visibility of class members.
+* 3. Model the class hierarchy for: vehicle, motorbike, car, truck, racing car etc.
+     bike, train.

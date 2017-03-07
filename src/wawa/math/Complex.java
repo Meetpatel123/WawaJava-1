@@ -1,17 +1,21 @@
 package wawa.math;
 
-class Complex {
+public class Complex {
 
-  final double re;
+  public final double re;
 
-  final double im;
+  public final double im;
 
-  Complex(double re, double im) {
+  public Complex(double re, double im) {
     this.re = re;
     this.im = im;
   }
 
-  Complex add(Complex other) {
+  public Complex(double re) {
+    this(re, 0);
+  }
+
+  public Complex add(Complex other) {
     return new Complex(
         this.re + other.re,
         this.im + other.im);
