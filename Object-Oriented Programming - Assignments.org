@@ -5,3 +5,4 @@
      visibility of class members.
 * 3. Model the class hierarchy for: vehicle, motorbike, car, truck, racing car etc.
      bike, train.
+* 4. Use overriding to model starting and stopping the class hierarchy from point 3.
