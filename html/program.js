@@ -1,21 +1,27 @@
+"use strict";
+
 var d = {
-  "dom": "house",
-  "brama": "gate",
-  "ogród": "garden",
-  "lekcja": "lesson"
+    "dom": "house",
+    "brama": "gate",
+    "ogród": "garden",
+    "lekcja": "lesson"
 };
 
 function factorial(n) {
-  if (n == 0) return 1;
-  else return n * factorial(n-1);
+    if (n === 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
 }
 
+var document;
+
 function onActionPerformed() {
-  var n = parseInt(document.getElementById("n").value);
-  if (isNaN(n)) {
-    document.getElementById("result").innerHTML = "";
-  }
-  else {
-    document.getElementById("result").innerHTML = factorial(n);
-  }
+    var n = parseInt(document.getElementById("n").value);
+    if (isNaN(n)) {
+        document.getElementById("result").innerHTML = "";
+    } else {
+        document.getElementById("result").innerHTML = factorial(n);
+    }
 }
