@@ -12,10 +12,10 @@ function factorial(n) {
 
 function onActionPerformed() {
   var n = parseInt(document.getElementById("n").value);
-  if (isNa(n)) {
+  if (isNaN(n)) {
     document.getElementById("result").innerHTML = "";
   }
   else {
-    document.getElementById("result").innerHTML = n;
+    document.getElementById("result").innerHTML = factorial(n);
   }
 }
