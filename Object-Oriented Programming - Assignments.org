@@ -6,3 +6,6 @@
 * 3. Model the class hierarchy for: vehicle, motorbike, car, truck, racing car etc.
      bike, train.
 * 4. Use overriding to model starting and stopping the class hierarchy from point 3.
+* 5. Design an interface describing a microwave oven, create a class implementing the
+     interface, create an object of this class and perform some manipulations over
+     the object using the elements of the interface.
