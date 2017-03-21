@@ -91,9 +91,37 @@ console.log(alertingNaN(function () {
   return 1 + 3;
 }));
 
-console.log(alertingNaN(function () {
-  return 0 / 0;
-}));
+// console.log(alertingNaN(function () {
+//   return 0 / 0;
+// }));
 
 // Excercise 02. Create a mechanizm that logs to a console when
 //               a result of a computation (expr) is even.
+
+// Ratios in JS
+
+function makeRatio(n, d) {
+  return {n: n, d: d};
+}
+
+function   num(r) { return r.n; }
+function denom(r) { return r.d; }
+
+function mult(r1, r2) {
+  return makeRatio(num(r1) * num(r2), denom(r1) * denom(r2));
+}
+
+// Ratios in JS - Alternate Take
+
+function makeRatio(n, d) {
+  return function(x) {
+    return x === 0 ? n : d;
+  };
+}
+
+function   num(r) { return r(0); }
+function denom(r) { return r(1); }
+
+function mult(r1, r2) {
+  return makeRatio(num(r1) * num(r2), denom(r1) * denom(r2));
+}
