@@ -63,3 +63,37 @@ function onActionPerformed() {
         //     (t2 - t1) + " msecs";
     }
 }
+
+var RESET = 0;
+function makeSequence(start) {
+  var state = start;
+  return function(flag) {
+    if (flag === RESET) {
+      var result = state - 1;
+      state = start;
+      return result;
+    } else {
+      return state++;
+    }
+  };
+}
+
+// Excercise 01. Create a mechanizm that calls window.alert(...)
+//               when a computation (expr) evaluates to NaN.
+
+function alertingNaN(expr) {
+  var value = expr();
+  if (isNaN(value)) window.alert("We have a NaN here!!!");
+  return value;
+}
+
+console.log(alertingNaN(function () {
+  return 1 + 3;
+}));
+
+console.log(alertingNaN(function () {
+  return 0 / 0;
+}));
+
+// Excercise 02. Create a mechanizm that logs to a console when
+//               a result of a computation (expr) is even.
