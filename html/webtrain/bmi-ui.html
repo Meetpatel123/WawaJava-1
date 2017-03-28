@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <meta charset="utf-8">
+    <script src="jquery-3.2.0.min.js"></script>
+    <script src="bmi.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <b>Mass</b>  <input type="text" value="" id="mass"  /><b>[kg]</b><br>
+        <b>Height</b><input type="text" value="" id="height"/><b>[m] </b><br>
+        <input type="submit" value="Calculate" onclick="calculate()"/><br>
+        <b><span>Your BMI is</span></b><b><span id="bmi"></span></b><br>
+        <b><span>You are</span></b><b><span id="suggestion"></span></b>
+      </form>
+    </div>
+  </body>
+</html>
