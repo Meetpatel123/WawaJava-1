@@ -9,3 +9,5 @@
 * 5. Design an interface describing a microwave oven, create a class implementing the
      interface, create an object of this class and perform some manipulations over
      the object using the elements of the interface.
+* 6. Design and implement a polymorphic procedure of your choice.
+     Design and implement an ad-hoc polymorphic procedure.
