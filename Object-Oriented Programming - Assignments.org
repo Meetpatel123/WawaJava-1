@@ -11,3 +11,4 @@
      the object using the elements of the interface.
 * 6. Design and implement a polymorphic procedure of your choice.
      Design and implement an ad-hoc polymorphic procedure.
+* 7. Design and implement a generic class Triple (similar to Pair).
