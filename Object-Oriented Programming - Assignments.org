@@ -12,4 +12,9 @@
 * 6. Design and implement a polymorphic procedure of your choice.
      Design and implement an ad-hoc polymorphic procedure.
 * 7. Design and implement a generic class Triple (similar to Pair).
+* 8. Given a List<Double>, write 2 procedures that return:
+     - A sum of the elements in the list
+     - A product of the elements in the list
+     - A list that contains reciprocals of every number in the list
+       (https://en.wikipedia.org/wiki/Multiplicative_inverse)
 
