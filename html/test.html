@@ -4,23 +4,37 @@
     <title>My first WEB page</title>
     <meta charset="utf-8">
     <script src="program.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   </head>
   <body>
-    <!-- <div class="container"> -->
-    <!--   <form> -->
-    <!--     <b>Factorial of</b> -->
-    <!--     <input type="text"   value="" id="n"/> -->
-    <!--     <input type="button" value="is" onClick="onActionPerformed()"/> -->
-    <!--     <b><span id="result"></span></b> -->
-    <!--   </form> -->
-    <!-- </div> -->
-    <div class="container">
+    <div id="app" class="container">
       <form>
-        <b>N-th Fibonacci series value</b>
+        <b>N-th <span id="Fib1">Fibonacci</span> series value</b>
         <input type="text" value="" id="n" oninput="onActionPerformed()"/>
-        <b><span>is</span></b>
-        <b><span id="result"></span></b>
+        <b><span class="bblack">is</span></b>
+        <b><span class="bblack" id="result"></span></b>
       </form>
     </div>
+
+    <div class="page-header">
+        <h1>Buttons</h1>
+    </div>
+    <p>
+        <button type="button" class="btn btn-lg btn-default">Default</button>
+        <button type="button" class="btn btn-lg btn-primary">Primary</button>
+        <button type="button" class="btn btn-lg btn-success">Success</button>
+        <button type="button" class="btn btn-lg btn-info">Info</button>
+        <button type="button" class="btn btn-lg btn-warning">Warning</button>
+        <button type="button" class="btn btn-lg btn-danger">Danger</button>
+        <button type="button" class="btn btn-lg btn-link">Link</button>
+    </p>
+
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
