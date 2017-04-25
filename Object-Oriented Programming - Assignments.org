@@ -17,4 +17,5 @@
      - A product of the elements in the list
      - A list that contains reciprocals of every number in the list
        (https://en.wikipedia.org/wiki/Multiplicative_inverse)
+* 9. Define an interface of your choice and implement a default method in it.
 
