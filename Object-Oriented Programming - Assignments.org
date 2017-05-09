@@ -18,4 +18,7 @@
      - A list that contains reciprocals of every number in the list
        (https://en.wikipedia.org/wiki/Multiplicative_inverse)
 * 9. Define an interface of your choice and implement a default method in it.
+* 10. Add a procedure Log.time(Runnable body) that will execute the body and log the
+      elapsed time of the execution in [ms]. Hint: measuring time in Java is in
+      java.lang.System class.
 

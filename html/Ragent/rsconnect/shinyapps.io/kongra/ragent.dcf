@@ -3,9 +3,8 @@ title: Ragent
 account: kongra
 server: shinyapps.io
 appId: 175167
-bundleId: 802886
+bundleId: 820406
 url: https://kongra.shinyapps.io/ragent/
-when: 1493119442.4424
+when: 1494321743.53901
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: otodom.csv
